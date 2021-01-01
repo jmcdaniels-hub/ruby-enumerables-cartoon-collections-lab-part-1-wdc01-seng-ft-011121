@@ -11,14 +11,13 @@ end
 
 
 def list_dwarves(array)
-  output = []
-  if array.count > 1 
+  
     array.each_with_index do |item, index|
     
-    output << #{index + 1}. #{item}
+      #{index + 1}. #{item}
     
     puts output
-    end
+    
   end  
 end
 
