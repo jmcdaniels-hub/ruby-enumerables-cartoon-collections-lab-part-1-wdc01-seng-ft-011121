@@ -12,12 +12,13 @@ end
 
 def list_dwarves(array)
   output = 
-  
-  array.each_with_index do |item, index|
-    if 
-    puts #{index + 1}. #{item}
-  end
-  
+  if array.count > 1 
+    array.each_with_index do |item, index|
+    
+    output << #{index + 1}. #{item}
+    end
+  end  
+  output
 end
 
 # Use `each_with_index` to enumerate over the provided array
