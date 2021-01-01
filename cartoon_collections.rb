@@ -11,7 +11,7 @@ end
 
 
 def list_dwarves(array)
-  output = 
+  output = []
   if array.count > 1 
     array.each_with_index do |item, index|
     
