@@ -14,7 +14,9 @@ def list_dwarves(array)
   
   array.each_with_index do |item, index|
     
-    puts (index + 1) + "." + " " + item 
+    list_number = index + 1
+    
+    puts list_number + "." + " " + item 
   end
   
 end
